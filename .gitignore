@@ -1,0 +1,17 @@
+# Security 
+.streamlit/secrets.toml
+.env
+profiles.yml
+
+# Python Junk
+**/__pycache__
+*.pyc
+
+# dbt Junk (Generated files)
+weather_transform/target/
+weather_transform/dbt_packages/
+weather_transform/logs/
+
+# Mac/Windows Junk
+.DS_Store
+Thumbs.db

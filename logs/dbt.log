@@ -1,0 +1,36 @@
+[0m12:52:08.255635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B8D61400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B49EB610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278BAEA79D0>]}
+
+
+============================== 12:52:08.268366 | 55139326-fd61-4ec2-9202-12421ba548c6 ==============================
+[0m12:52:08.268366 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:52:08.270284 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init weather_transform', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:52:08.339099 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\USER\.dbt
+[0m12:52:08.345643 [debug] [MainThread]: Starter project path: C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m12:52:08.411072 [info ] [MainThread]: 
+Your new dbt project "weather_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:52:08.412306 [info ] [MainThread]: Setting up your profile.
+[0m13:42:38.768802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028873D81400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002886F93B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028875EC39D0>]}
+
+
+============================== 13:42:38.787966 | e033e44f-e566-4056-a896-9d6ec77dbfb3 ==============================
+[0m13:42:38.787966 [info ] [MainThread]: Running with dbt=1.11.2
+[0m13:42:38.790994 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\USER\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init weather_transform', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:42:38.917402 [info ] [MainThread]: A project called weather_transform already exists here.
+[0m13:42:38.924119 [debug] [MainThread]: Command `dbt init` succeeded at 13:42:38.923657 after 0.62 seconds
+[0m13:42:38.925399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028875F543E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028875FA15B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028874D8F8A0>]}
+[0m13:42:38.927043 [debug] [MainThread]: Flushing usage events
+[0m13:42:41.521620 [debug] [MainThread]: An error was encountered while trying to flush usage events
